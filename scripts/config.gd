@@ -54,7 +54,7 @@ static var MONSTER_VISION_ANGLE_DEG: float = 110.0
 static var MONSTER_HEARING_TILES: float = 4.0
 # M26: idle monsters beyond this range skip detection (AI_RANGE > detection 8 + hearing 4 tiles,
 # so correctness is preserved while cutting per-frame cost on large floors).
-static var MONSTER_AI_RANGE_TILES: float = 12.0
+static var MONSTER_AI_RANGE_TILES: float = 13.0
 static var MONSTER_ROAM_PAUSE_MIN: float = 1.0
 static var MONSTER_ROAM_PAUSE_MAX: float = 3.0
 static var MONSTER_SEARCH_TIME: float = 5.0

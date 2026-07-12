@@ -1,13 +1,14 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
-uid="uid://p57vjvjl5xr6"
-valid=false
+type="Texture2D"
+valid=true
+path="res://generated/textures/item_cheese.tex.tres"
 
 [deps]
 
 source_file="res://assets/sprites/item_cheese.png"
+dest_files=["res://generated/textures/item_cheese.tex.tres"]
 
 [params]
 

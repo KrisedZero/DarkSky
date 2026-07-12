@@ -24,8 +24,8 @@ var is_open: bool:
 	get:
 		return _is_open
 
-const _open_tex := preload("res://assets/sprites/door_open.png")
-const _closed_tex := preload("res://assets/sprites/door_closed.png")
+var _open_tex: Texture2D = load("res://assets/sprites/door_open.png")
+var _closed_tex: Texture2D = load("res://assets/sprites/door_closed.png")
 
 @onready var _sprite: Sprite2D = $Sprite
 @onready var _blocker: StaticBody2D = $Blocker
@@ -63,7 +63,7 @@ func _apply_open_state() -> void:
 	if _sprite != null:
 		_sprite.texture = _open_tex if _is_open else _closed_tex
 	if _blocker != null:
-		_blocker.disabled = _is_open
+		_blocker.get_node("BlockerShape").disabled = _is_open
 	interactable_enabled = not _is_open
 	_block_grid(not _is_open)
 	_refresh_prompt()

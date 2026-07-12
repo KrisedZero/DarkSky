@@ -25,7 +25,7 @@ func _process(_delta: float) -> void:
 	var player := _find_player()
 	if player == null:
 		return
-	var monsters := get_tree().get_nodes_in_group(MONSTER_GROUP)
+	var monsters := _find_monsters()
 	SignalBus.danger_sense_updated.emit(nearest_monster_direction(player.global_position, monsters))
 
 
@@ -47,7 +47,15 @@ static func nearest_monster_direction(origin: Vector2, monsters: Array) -> Vecto
 
 
 func _find_player() -> Node:
-	var nodes := get_tree().get_nodes_in_group(PLAYER_GROUP)
-	if nodes.is_empty():
-		return null
-	return nodes[0]
+	for n in get_tree().get_nodes_in_group(PLAYER_GROUP):
+		if is_instance_valid(n) and not n.is_queued_for_deletion():
+			return n
+	return null
+
+
+func _find_monsters() -> Array:
+	var result: Array[Node] = []
+	for n in get_tree().get_nodes_in_group(MONSTER_GROUP):
+		if is_instance_valid(n) and not n.is_queued_for_deletion():
+			result.append(n)
+	return result

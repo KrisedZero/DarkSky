@@ -1,13 +1,14 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
-uid="uid://ci1hsk0bq7py7"
-valid=false
+type="Texture2D"
+valid=true
+path="res://generated/textures/floor_stone.tex.tres"
 
 [deps]
 
 source_file="res://assets/tilesets/floor_stone.png"
+dest_files=["res://generated/textures/floor_stone.tex.tres"]
 
 [params]
 

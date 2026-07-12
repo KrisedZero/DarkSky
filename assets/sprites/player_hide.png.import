@@ -1,13 +1,14 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
-uid="uid://bgyc8sishu87v"
-valid=false
+type="Texture2D"
+valid=true
+path="res://generated/textures/player_hide.tex.tres"
 
 [deps]
 
 source_file="res://assets/sprites/player_hide.png"
+dest_files=["res://generated/textures/player_hide.tex.tres"]
 
 [params]
 

@@ -1,13 +1,14 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
-uid="uid://bwi73t1qvcfc2"
-valid=false
+type="Texture2D"
+valid=true
+path="res://generated/textures/player_idle.tex.tres"
 
 [deps]
 
 source_file="res://assets/sprites/player_idle.png"
+dest_files=["res://generated/textures/player_idle.tex.tres"]
 
 [params]
 

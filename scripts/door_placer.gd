@@ -52,7 +52,7 @@ func place(layout: FloorLayout, container: Node, seed: int, world_grid: WorldGri
 	for idx in indices:
 		if not locked_set.has(idx):
 			continue
-		var edge: PackedInt32Array = layout.connections[idx]
+		var edge: PackedInt32Array = layout.connections[int(idx / 2)]
 		var side := entrance_side_rooms(layout, edge[0], edge[1])
 		if key_room_pool.is_empty():
 			key_room_pool = side.duplicate()

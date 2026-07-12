@@ -31,6 +31,10 @@ var _path_goal: Vector2i = Vector2i.ZERO
 var _repath_cooldown: float = 0.0
 
 
+func _enter_tree() -> void:
+	add_to_group("monster")
+
+
 func _on_spawn() -> void:
 	add_to_group("monster")
 	home_position = global_position
@@ -236,10 +240,10 @@ func _set_state(next: int) -> void:
 
 
 func _find_player() -> Node:
-	var nodes := get_tree().get_nodes_in_group("player")
-	if nodes.is_empty():
-		return null
-	return nodes[0]
+	for n in get_tree().get_nodes_in_group("player"):
+		if is_instance_valid(n) and not n.is_queued_for_deletion():
+			return n
+	return null
 
 
 ## M26 (pure, testable): an idle monster beyond the AI range is safe to skip detection for.

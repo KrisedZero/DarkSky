@@ -25,6 +25,11 @@ func pickup(id: StringName, amount: int = 1) -> bool:
 		return false
 	if amount <= 0:
 		return false
+	if ItemsData.is_artifact(id):
+		if amount == 1:
+			return InventoryManager.add_artifact(id)
+		push_warning("ItemManager: artifacts cannot be stacked (amount=%d)" % amount)
+		return false
 	InventoryManager.add_item(id, amount)
 	return true
 

@@ -1,13 +1,14 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
-uid="uid://v12jsrh35vg"
-valid=false
+type="Texture2D"
+valid=true
+path="res://generated/textures/balcony_floor.tex.tres"
 
 [deps]
 
 source_file="res://assets/tilesets/balcony_floor.png"
+dest_files=["res://generated/textures/balcony_floor.tex.tres"]
 
 [params]
 

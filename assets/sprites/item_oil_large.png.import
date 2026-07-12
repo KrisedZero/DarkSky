@@ -1,13 +1,14 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
-uid="uid://chp4roeeuovbv"
-valid=false
+type="Texture2D"
+valid=true
+path="res://generated/textures/item_oil_large.tex.tres"
 
 [deps]
 
 source_file="res://assets/sprites/item_oil_large.png"
+dest_files=["res://generated/textures/item_oil_large.tex.tres"]
 
 [params]
 

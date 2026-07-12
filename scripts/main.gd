@@ -164,6 +164,7 @@ func _test_items() -> void:
 	add_child(p)
 	ItemManager.pickup(ItemsData.APPLE, 2)
 	assert(InventoryManager.count(ItemsData.APPLE) == 2, "pickup apple")
+	p.add_energy(-50.0)  # give headroom so the apple's restore is observable (energy starts at max)
 	var energy_before := p.energy
 	assert(ItemManager.use(ItemsData.APPLE, p), "use apple")
 	assert(p.energy == energy_before + 20.0, "apple restores energy")
@@ -562,10 +563,10 @@ func _test_survival() -> void:
 	InventoryManager.clear()
 	var player: PlayerController = PLAYER_SCENE.instantiate()
 	player.global_position = Vector2(Config.TILE_SIZE, 0)
-	add_child(player)
+	add_child(player); player._on_spawn()
 	var m: Monster = MONSTER_SCENE.instantiate()
 	m.global_position = Vector2(0, 0)
-	add_child(m)
+	add_child(m); m._on_spawn()
 	m._physics_process(0.1)
 	assert(m.state == Monster.State.CHASE, "monster chases without repellent")
 	m.state = Monster.State.PATROL
@@ -597,10 +598,10 @@ func _test_stealth() -> void:
 	InventoryManager.clear()
 	var player: PlayerController = PLAYER_SCENE.instantiate()
 	player.global_position = Vector2(Config.TILE_SIZE, 0)
-	add_child(player)
+	add_child(player); player._on_spawn()
 	var m: Monster = MONSTER_SCENE.instantiate()
 	m.global_position = Vector2(0, 0)
-	add_child(m)
+	add_child(m); m._on_spawn()
 	# Hidden: a close, lit player that is hidden is not detected.
 	m._physics_process(0.1)
 	assert(m.state == Monster.State.CHASE, "visible player is chased")
@@ -649,10 +650,10 @@ func _test_danger_sense() -> void:
 	InventoryManager.clear()
 	var player: PlayerController = PLAYER_SCENE.instantiate()
 	player.global_position = Vector2(0, 0)
-	add_child(player)
+	add_child(player); player._on_spawn()
 	var mon: Monster = MONSTER_SCENE.instantiate()
-	mon.global_position = Vector2(30, 0)
-	add_child(mon)
+	mon.global_position = Vector2(Config.TILE_SIZE * 2, 0)
+	add_child(mon); mon._on_spawn()
 	var probe := {"dir": Vector2.ZERO}
 	var cb := func(d: Vector2) -> void: probe["dir"] = d
 	SignalBus.danger_sense_updated.connect(cb)
@@ -718,8 +719,8 @@ func _test_pause() -> void:
 	GameManager.state = GameManager.State.PLAYING
 	var paused_probe := {"hit": false}
 	var resumed_probe := {"hit": false}
-	var cb_p := func(_i: int) -> void: paused_probe["hit"] = true
-	var cb_r := func(_i: int) -> void: resumed_probe["hit"] = true
+	var cb_p := func() -> void: paused_probe["hit"] = true
+	var cb_r := func() -> void: resumed_probe["hit"] = true
 	SignalBus.game_paused.connect(cb_p)
 	SignalBus.game_resumed.connect(cb_r)
 	GameManager.pause()
@@ -801,6 +802,7 @@ func _test_difficulty() -> void:
 	)
 
 	# Bloodbringer: winning in Blood Mode unlocks the achievement (M25).
+	AchievementManager.reset_for_testing()
 	InventoryManager.clear()
 	InventoryManager.add_artifact(ItemsData.CODEX_BLOOD)
 	var probe := {"hit": false}
@@ -837,10 +839,10 @@ func _test_optimization() -> void:
 	InventoryManager.clear()
 	var player: PlayerController = PLAYER_SCENE.instantiate()
 	player.global_position = Vector2.ZERO
-	add_child(player)
+	add_child(player); player._on_spawn()
 	var m: Monster = MONSTER_SCENE.instantiate()
 	m.global_position = Vector2(Config.tiles_to_px(Config.MONSTER_AI_RANGE_TILES) + 200, 0)
-	add_child(m)
+	add_child(m); m._on_spawn()
 	m._physics_process(0.1)
 	assert(m.state == Monster.State.PATROL, "far idle monster stays patrol")
 	m.global_position = Vector2(Config.TILE_SIZE, 0)

@@ -1,13 +1,14 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
-uid="uid://cnr3x52sehadt"
-valid=false
+type="Texture2D"
+valid=true
+path="res://generated/textures/key.tex.tres"
 
 [deps]
 
 source_file="res://assets/sprites/key.png"
+dest_files=["res://generated/textures/key.tex.tres"]
 
 [params]
 

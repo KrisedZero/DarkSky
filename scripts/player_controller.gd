@@ -16,7 +16,12 @@ var on_balcony: bool = false  # M20: true while standing on a balcony (monster s
 var _regen_per_sec: float = Config.ENERGY_REGEN_PER_MIN / 60.0
 
 
+func _enter_tree() -> void:
+	add_to_group("player")
+
+
 func _on_spawn() -> void:
+	add_to_group("player")
 	SignalBus.player_spawned.emit(self)
 	SignalBus.energy_changed.emit(energy)
 	SignalBus.lamp_toggled.emit(lamp_on)

@@ -60,3 +60,12 @@ func unlock(id: StringName) -> void:
 ## All unlocked ids (read-only snapshot).
 func get_all() -> Array:
 	return _unlocked.keys()
+
+
+## Test support: clear all unlocked achievements and delete the save file.
+func reset_for_testing() -> void:
+	_unlocked.clear()
+	if FileAccess.file_exists(SAVE_PATH):
+		var dir := DirAccess.open("user://")
+		if dir:
+			dir.remove(SAVE_PATH.get_file())
