@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://dvtlqyhhn7af1"]
+
+[ext_resource type="Script" uid="uid://cxdsgkic2mixb" path="res://scripts/ending_placeholder.gd" id="1_ending"]
+
+[node name="EndingPlaceholder" type="Node2D"]
+script = ExtResource("1_ending")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 312.0
+offset_bottom = 60.0
+text = "ENDING (placeholder)
+Thank you for playing.
+Enter: return to menu"

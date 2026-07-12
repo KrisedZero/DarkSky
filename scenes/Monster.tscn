@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://dndxwisaaw1xc"]
+
+[ext_resource type="Script" uid="uid://dk5dwj4202p1v" path="res://scripts/monster.gd" id="1_monster"]
+[ext_resource type="Texture2D" path="res://assets/sprites/monster_1.png" id="tex1"]
+
+[sub_resource type="CircleShape2D" id="Circle_body"]
+radius = 12.0
+
+
+[node name="Monster" type="CharacterBody2D"]
+script = ExtResource("1_monster")
+z_index = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("Circle_body")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+texture = ExtResource("tex1")

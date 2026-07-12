@@ -1,0 +1,48 @@
+[gd_scene load_steps=2 format=3 uid="uid://daw47jtugbq6c"]
+
+[ext_resource type="Script" uid="uid://brep6un4vy5pn" path="res://scripts/hud.gd" id="1_hud"]
+
+[node name="HUD" type="CanvasLayer"]
+script = ExtResource("1_hud")
+layer = 10
+
+[node name="TopLeft" type="Control" parent="."]
+position = Vector2(8, 8)
+
+[node name="Floor" type="Label" parent="TopLeft"]
+text = "Floor 1"
+
+[node name="Oil" type="Label" parent="TopLeft"]
+position = Vector2(0, 14)
+text = "Oil: 0"
+
+[node name="Energy" type="Label" parent="TopLeft"]
+position = Vector2(0, 28)
+text = "Energy: 0"
+
+[node name="TopRight" type="Control" parent="."]
+position = Vector2(220, 8)
+
+[node name="Coins" type="Label" parent="TopRight"]
+text = "Coins: 0"
+
+[node name="Status" type="Label" parent="TopRight"]
+position = Vector2(0, 14)
+text = ""
+
+[node name="Bottom" type="Control" parent="."]
+position = Vector2(8, 150)
+
+[node name="Artifacts" type="Label" parent="Bottom"]
+text = "Artifacts:"
+
+[node name="DangerAura" type="ColorRect" parent="."]
+visible = false
+position = Vector2(140, 90)
+size = Vector2(40, 6)
+color = Color(1, 0, 0, 0.7)
+
+[node name="Flash" type="ColorRect" parent="."]
+visible = false
+size = Vector2(320, 180)
+color = Color(1, 0, 0, 1)

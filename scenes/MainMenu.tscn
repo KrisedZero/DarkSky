@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://bsrqv5vqwryr1"]
+
+[ext_resource type="Script" uid="uid://c27uvp1b471ee" path="res://scripts/main_menu.gd" id="1_menu"]
+[ext_resource type="PackedScene" uid="uid://bgpi2f0cqgkee" path="res://scenes/SettingsMenu.tscn" id="2_settings"]
+
+[node name="MainMenu" type="Control"]
+script = ExtResource("1_menu")
+
+[node name="VBox" type="VBoxContainer" parent="."]
+
+[node name="Title" type="Label" parent="VBox"]
+text = "PIXEL HORROR CASTLE"
+
+[node name="PlayButton" type="Button" parent="VBox"]
+text = "New Game"
+
+[node name="ContinueButton" type="Button" parent="VBox"]
+text = "Continue"
+
+[node name="SettingsButton" type="Button" parent="VBox"]
+text = "Settings"
+
+[node name="ExitButton" type="Button" parent="VBox"]
+text = "Exit"
+
+[node name="SettingsMenu" parent="." instance=ExtResource("2_settings")]

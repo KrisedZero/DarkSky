@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://dyt0gwcwf0gn5"]
+
+[ext_resource type="Script" uid="uid://bgiycj7ygn126" path="res://scripts/game_over_overlay.gd" id="1_go"]
+
+[node name="GameOverOverlay" type="CanvasLayer"]
+script = ExtResource("1_go")
+layer = 20
+
+[node name="Flash" type="ColorRect" parent="."]
+color = Color(0.5, 0, 0, 1)
+size = Vector2(320, 180)
+
+[node name="Message" type="Label" parent="."]
+offset_right = 320
+offset_bottom = 180
+horizontal_alignment = 1
+vertical_alignment = 1
+text = "YOU WERE CAUGHT"

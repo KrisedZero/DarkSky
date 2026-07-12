@@ -1,0 +1,30 @@
+[gd_scene load_steps=8 format=3 uid="uid://bkdacb6ux1p1e"]
+
+[ext_resource type="Script" uid="uid://rwwjrl0jgn62" path="res://scripts/floor_placeholder.gd" id="1_floor"]
+[ext_resource type="PackedScene" uid="uid://c58jg8nxleu85" path="res://scenes/Player.tscn" id="2_player"]
+[ext_resource type="Script" uid="uid://diq8r6qfcyklh" path="res://scripts/game_camera.gd" id="3_camera"]
+[ext_resource type="Script" uid="uid://dyl24tfnvjeoc" path="res://scripts/lighting_system.gd" id="4_lighting"]
+[ext_resource type="PackedScene" uid="uid://daw47jtugbq6c" path="res://scenes/HUD.tscn" id="5_hud"]
+[ext_resource type="PackedScene" uid="uid://bdcgived5dqoe" path="res://scenes/PauseMenu.tscn" id="6_pause"]
+[ext_resource type="PackedScene" uid="uid://bgpi2f0cqgkee" path="res://scenes/SettingsMenu.tscn" id="7_settings"]
+
+[node name="FloorPlaceholder" type="Node2D"]
+script = ExtResource("1_floor")
+
+[node name="Rooms" type="Node2D" parent="."]
+
+[node name="LightingSystem" type="CanvasModulate" parent="."]
+script = ExtResource("4_lighting")
+
+[node name="Player" parent="." instance=ExtResource("2_player")]
+position = Vector2(160, 100)
+
+[node name="Camera" type="Camera2D" parent="."]
+script = ExtResource("3_camera")
+follow_target_path = NodePath("../Player")
+
+[node name="HUD" parent="." instance=ExtResource("5_hud")]
+
+[node name="PauseMenu" parent="." instance=ExtResource("6_pause")]
+
+[node name="SettingsMenu" parent="." instance=ExtResource("7_settings")]

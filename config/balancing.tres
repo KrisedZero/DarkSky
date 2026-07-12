@@ -1,0 +1,51 @@
+[gd_resource type="Resource" script_class="BalancingConfig" load_steps=2 format=3 uid="uid://dix826l23d2i6"]
+
+[ext_resource type="Script" uid="uid://ssbt0n2y20lv" path="res://scripts/balancing_config.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+player_move_speed = 120.0
+player_run_speed = 180.0
+player_crouch_speed = 80.0
+player_max_health = 100
+player_max_energy = 100
+energy_cost_walk = 0.1
+energy_cost_run = 0.25
+energy_regen_per_min = 1.0
+lantern_oil_start = 600.0
+oil_small_refill = 60.0
+oil_large_refill = 120.0
+lamp_off_detection_factor = 0.5
+lantern_radius_tiles = 5.0
+ambient_darkness = Color(0.08, 0.08, 0.12, 1)
+lantern_color = Color(1, 0.85, 0.55, 1)
+monster_patrol_speed = 90.0
+monster_chase_speed = 140.0
+monster_detection_tiles = 8.0
+monster_chase_tiles = 12.0
+monster_vision_angle_deg = 110.0
+monster_hearing_tiles = 4.0
+monster_ai_range_tiles = 12.0
+monster_roam_pause_min = 1.0
+monster_roam_pause_max = 3.0
+monster_search_time = 5.0
+food_apple_energy = 20
+food_cookie_energy = 10
+food_cheese_energy = 25
+food_pie_energy = 35
+night_vision_duration = 120.0
+sleep_monster_weaken = 0.15
+cloak_uses = 1
+blood_mode_resource_factor = 0.6
+blood_mode_detect_factor = 1.5
+blood_mode_energy_factor = 1.5
+blood_mode_monster_speed = 1.2
+floor_count = 7
+rooms_min = 12
+rooms_max = 30
+chests_min = 3
+chests_max = 6
+locked_doors_max = 3
+monsters_min = 3
+monsters_max = 8
+loot_oil_small_ratio = 0.8

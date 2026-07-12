@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://cvirqffgs5aa"]
+
+[ext_resource type="Script" uid="uid://bg25t7i0l783d" path="res://scripts/furniture.gd" id="1_furniture"]
+[ext_resource type="Texture2D" path="res://assets/sprites/bed.png" id="tex1"]
+
+
+[sub_resource type="RectangleShape2D" id="Rect_bed"]
+size = Vector2(28, 20)
+
+[node name="Bed" type="Area2D"]
+script = ExtResource("1_furniture")
+prompt_text = "Rest"
+z_index = 1
+
+[node name="Sprite" type="Sprite2D" parent="."]
+texture = ExtResource("tex1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("Rect_bed")

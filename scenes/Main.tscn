@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://b3qeh78luwbsy"]
+
+[ext_resource type="Script" uid="uid://cuwac38poji2l" path="res://scripts/main.gd" id="1_main"]
+[ext_resource type="Script" uid="uid://b0newnott7n10" path="res://scripts/interaction_prompt.gd" id="2_prompt"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_main")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 312.0
+offset_bottom = 40.0
+text = "Pixel Horror Castle
+Scaffold OK (M2)"
+
+[node name="InteractionPrompt" type="Label" parent="."]
+offset_left = 8.0
+offset_top = 140.0
+offset_right = 312.0
+offset_bottom = 160.0
+script = ExtResource("2_prompt")

@@ -1,0 +1,21 @@
+# Godot 4 project ignores
+.godot/
+.import/
+export/
+export_presets.cfg
+*.translation
+
+# Build artifacts
+build/
+*.tmp
+
+# Local tooling / editor config (not part of the game)
+.opencode/
+node_modules/
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini

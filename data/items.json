@@ -1,0 +1,21 @@
+{
+  "comment": "Canonical item definitions (mirrors docs/items.md). Loaded by ItemDatabase at runtime. Effect types: energy (restore player energy), oil (refill lantern seconds), blood_mode (unlock Blood Codex), repel (monster repellent charges), shield (one-time death shield), cloak/light/night_vision (equipment ownership). Loot/merchant/save all key off 'id'.",
+  "items": [
+    { "id": "COIN",        "name": "Gold Coin",        "category": "CURRENCY", "stackable": true,  "effect": { "type": "none" },            "spawns": ["chests", "rooms"],        "rarity": "common" },
+    { "id": "KEY",         "name": "Old Key",          "category": "ACCESS",   "stackable": true,  "effect": { "type": "none" },            "spawns": ["rooms"],                   "rarity": "uncommon" },
+    { "id": "APPLE",       "name": "Apple",            "category": "FOOD",     "stackable": true,  "effect": { "type": "energy", "value": 20 }, "spawns": ["chests"],              "rarity": "common" },
+    { "id": "COOKIE",      "name": "Cookie",           "category": "FOOD",     "stackable": true,  "effect": { "type": "energy", "value": 10 }, "spawns": ["chests"],              "rarity": "common" },
+    { "id": "CHEESE",      "name": "Cheese",           "category": "FOOD",     "stackable": true,  "effect": { "type": "energy", "value": 25 }, "spawns": ["chests"],              "rarity": "uncommon" },
+    { "id": "PIE",         "name": "Pie",              "category": "FOOD",     "stackable": true,  "effect": { "type": "energy", "value": 35 }, "spawns": ["chests"],              "rarity": "rare" },
+    { "id": "OIL_SMALL",   "name": "Small Oil",        "category": "FUEL",     "stackable": true,  "effect": { "type": "oil", "value": 60 },    "spawns": ["chests", "rooms"],       "rarity": "common" },
+    { "id": "OIL_LARGE",   "name": "Large Oil",        "category": "FUEL",     "stackable": true,  "effect": { "type": "oil", "value": 120 },   "spawns": ["chests", "rooms"],       "rarity": "uncommon" },
+    { "id": "REP_SPRAY",   "name": "Monster Repellent","category": "RARE",     "stackable": true,  "effect": { "type": "repel", "value": 1 },  "spawns": ["chests"],                "rarity": "rare" },
+    { "id": "LIFE_AMULET", "name": "Amulet of Survival","category": "RARE",    "stackable": true,  "effect": { "type": "shield" },            "spawns": ["chests"],                 "rarity": "rare" },
+    { "id": "CLOAK",       "name": "Cloak",            "category": "EQUIPMENT","stackable": true,  "effect": { "type": "cloak" },             "spawns": ["merchant"],                "rarity": "special", "price": 30 },
+    { "id": "FIRE_MAGIC",  "name": "Fire Magic",       "category": "EQUIPMENT","stackable": true,  "effect": { "type": "light" },             "spawns": ["merchant"],                "rarity": "special", "price": 25 },
+    { "id": "NIGHT_VISION","name": "Night Vision Potion","category": "EQUIPMENT","stackable": true,"effect": { "type": "night_vision" },      "spawns": ["merchant"],                "rarity": "special", "price": 15 },
+    { "id": "DANGER_SENSE","name": "Amulet of Sensing","category": "EQUIPMENT","stackable": true,  "effect": { "type": "danger_sense" },      "spawns": ["merchant"],                "rarity": "special", "price": 15 },
+    { "id": "SLEEP_POTION","name": "Sleep Potion",     "category": "RARE",     "stackable": true,  "effect": { "type": "sleep" },             "spawns": ["merchant"],                "rarity": "rare",    "price": 10 },
+    { "id": "CODEX_BLOOD", "name": "Codex of Blood",   "category": "ARTIFACT", "stackable": false, "effect": { "type": "blood_mode" },        "spawns": ["merchant"],                "rarity": "unique",  "price": 75 }
+  ]
+}
