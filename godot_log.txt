@@ -1,0 +1,121 @@
+﻿Godot Engine v4.4.stable.official.4c311cbee - https://godotengine.org
+
+Godot_v4.4-stable_win64.exe : SCRIPT ERROR: Compile Error: Identifier not found: SignalBus
+At line:1 char:1
++ & "D:\Godot_v4.4-stable_win64.exe\Godot_v4.4-stable_win64.exe" --head ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (SCRIPT ERROR: C...ound: SignalBus:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+   at: GDScript::reload (res://scripts/player_controller.gd:20)
+ERROR: Failed to load script "res://scripts/player_controller.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript.cpp:3022)
+SCRIPT ERROR: Compile Error: Identifier not found: Config
+   at: GDScript::reload (res://scripts/lantern_light.gd:15)
+ERROR: Failed to load script "res://scripts/lantern_light.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript.cpp:3022)
+ERROR: Failed loading resource: res://assets/sprites/player_idle.png. Make sure resources have been imported by 
+opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: res://scenes/Player.tscn:23 - Parse Error: [ext_resource] referenced non-existent resource at: 
+res://assets/sprites/player_idle.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:39)
+SCRIPT ERROR: Parse Error: Too many arguments for "get()" call. Expected at most 1 but received 2.
+   at: GDScript::reload (res://scripts/monster.gd:101)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "aim" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://scripts/monster.gd:156)
+ERROR: Failed to load script "res://scripts/monster.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:3022)
+ERROR: Failed loading resource: res://assets/sprites/monster_1.png. Make sure resources have been imported by opening 
+the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: res://scenes/Monster.tscn:18 - Parse Error: [ext_resource] referenced non-existent resource at: 
+res://assets/sprites/monster_1.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:39)
+SCRIPT ERROR: Compile Error: Identifier not found: InventoryManager
+   at: GDScript::reload (res://scripts/hud.gd:45)
+ERROR: Failed to load script "res://scripts/hud.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript.cpp:3022)
+SCRIPT ERROR: Compile Error: Identifier not found: SaveManager
+   at: GDScript::reload (res://scripts/main_menu.gd:54)
+ERROR: Failed to load script "res://scripts/main_menu.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript.cpp:3022)
+SCRIPT ERROR: Compile Error: Identifier not found: SignalBus
+   at: GDScript::reload (res://scripts/settings_menu.gd:23)
+ERROR: Failed to load script "res://scripts/settings_menu.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript.cpp:3022)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening 
+the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/sprites/chest_open.png".
+   at: GDScript::reload (res://scripts/chest.gd:11)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "_open_tex" constant because the value doesn't have a set type.
+   at: GDScript::reload (res://scripts/chest.gd:11)
+ERROR: Failed to load script "res://scripts/chest.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:3022)
+ERROR: Failed loading resource: res://assets/sprites/chest.png. Make sure resources have been imported by opening the 
+project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: res://scenes/Chest.tscn:15 - Parse Error: [ext_resource] referenced non-existent resource at: 
+res://assets/sprites/chest.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:39)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening 
+the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by 
+opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/sprites/door_open.png".
+   at: GDScript::reload (res://scripts/door.gd:27)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "_open_tex" constant because the value doesn't have a set type.
+   at: GDScript::reload (res://scripts/door.gd:27)
+SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/sprites/door_closed.png".
+   at: GDScript::reload (res://scripts/door.gd:28)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "_closed_tex" constant because the value doesn't have a set type.
+   at: GDScript::reload (res://scripts/door.gd:28)
+ERROR: Failed to load script "res://scripts/door.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:3022)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by 
+opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: res://scenes/Door.tscn:18 - Parse Error: [ext_resource] referenced non-existent resource at: 
+res://assets/sprites/door_closed.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:39)
+SCRIPT ERROR: Compile Error: Identifier not found: ItemManager
+   at: GDScript::reload (res://scripts/key_item.gd:16)
+ERROR: Failed to load script "res://scripts/key_item.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript.cpp:3022)
+ERROR: Failed loading resource: res://assets/sprites/key.png. Make sure resources have been imported by opening the 
+project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: res://scenes/KeyItem.tscn:15 - Parse Error: [ext_resource] referenced non-existent resource at: 
+res://assets/sprites/key.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:39)
+SCRIPT ERROR: Compile Error: Identifier not found: ItemManager
+   at: GDScript::reload (res://scripts/merchant.gd:26)
+ERROR: Failed to load script "res://scripts/merchant.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript.cpp:3022)
+ERROR: Failed loading resource: res://assets/sprites/merchant.png. Make sure resources have been imported by opening 
+the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: res://scenes/Merchant.tscn:16 - Parse Error: [ext_resource] referenced non-existent resource at: 
+res://assets/sprites/merchant.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:39)
+SCRIPT ERROR: Compile Error: Identifier not found: AudioManager
+   at: GDScript::reload (res://scripts/furniture.gd:17)
+ERROR: Failed to load script "res://scripts/furniture.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript.cpp:3022)
+ERROR: Failed loading resource: res://assets/sprites/bed.png. Make sure resources have been imported by opening the 
+project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: res://scenes/Furniture.tscn:17 - Parse Error: [ext_resource] referenced non-existent resource at: 
+res://assets/sprites/bed.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:39)
+SCRIPT ERROR: Compile Error: Identifier not found: GameManager
+   at: GDScript::reload (res://scripts/game_over_overlay.gd:35)
+ERROR: Failed to load script "res://scripts/game_over_overlay.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript.cpp:3022)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "pos" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://scripts/main.gd:288)
+ERROR: Failed to load script "res://scripts/main.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:3022)

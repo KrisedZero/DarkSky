@@ -57,7 +57,7 @@ func place(layout: FloorLayout, container: Node, seed: int, world_grid: WorldGri
 		if key_room_pool.is_empty():
 			key_room_pool = side.duplicate()
 			_seeded_shuffle(key_room_pool, rng)
-		var room_id := key_room_pool.pop_front() if not key_room_pool.is_empty() else edge[0]
+		var room_id: int = key_room_pool.pop_front() if not key_room_pool.is_empty() else edge[0]
 		var rd := layout.room_by_id(room_id)
 		var key := KEY_SCENE.instantiate()
 		key.key_id = layout.floor_index * 1000 + idx + 1

@@ -98,7 +98,7 @@ func _physics_process(delta: float) -> void:
 			if detected and InventoryManager.has_flag(ItemsData.REP_SPRAY):
 				detected = false
 			# M20: balconies are safe zones — monsters never spot the player there.
-			if detected and player != null and player.get("on_balcony", false):
+			if detected and player != null and player.get("on_balcony") == true:
 				detected = false
 		_emit_heartbeat(player)
 	_apply_detection(detected, player, delta)
@@ -153,7 +153,7 @@ func _chase(player: Node, delta: float) -> void:
 			_path = Pathfinder.find_path(world_grid, world_grid.world_to_tile(global_position), goal_tile)
 			_path_goal = goal_tile
 			_repath_cooldown = 0.25
-		var aim := player.global_position
+		var aim: Vector2 = player.global_position
 		while _path.size() >= 2:
 			var nxt := world_grid.tile_to_world_center(_path[1])
 			if global_position.distance_to(nxt) < Config.TILE_SIZE * 0.5:

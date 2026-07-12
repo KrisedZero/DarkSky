@@ -71,5 +71,5 @@ func use(id: StringName, player: Node = null) -> bool:
 static func resolve_effect(def: Dictionary) -> Dictionary:
 	if def.is_empty() or not def.has("effect"):
 		return {"type": "none", "value": 0.0}
-	var e := def["effect"]
+	var e: Dictionary = def["effect"]
 	return {"type": e.get("type", "none"), "value": float(e.get("value", 0))}

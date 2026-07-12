@@ -51,14 +51,14 @@ func _fill_rect(rect: Rect2, value: int) -> void:
 	var y1 := int(ceil(rect.end.y))
 	for y in range(y0, y1):
 		for x in range(x0, x1):
-			_set(x, y, value)
+			_set_cell(x, y, value)
 
 
 func _idx(x: int, y: int) -> int:
 	return (y - origin.y) * cols + (x - origin.x)
 
 
-func _set(x: int, y: int, value: int) -> void:
+func _set_cell(x: int, y: int, value: int) -> void:
 	if x < origin.x or y < origin.y or x >= origin.x + cols or y >= origin.y + rows:
 		return
 	cells[_idx(x, y)] = value

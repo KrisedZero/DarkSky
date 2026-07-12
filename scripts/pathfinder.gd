@@ -24,7 +24,7 @@ static func find_path(grid: WorldGrid, start: Vector2i, goal: Vector2i) -> Array
 
 	while not open.is_empty():
 		# Pop the lowest-f node (small grids -> a linear scan is fine).
-		var current := open[0]
+		var current: Vector2i = open[0]
 		var best_i := 0
 		for i in range(1, open.size()):
 			if f_score.get(open[i], INF) < f_score.get(current, INF):
@@ -37,7 +37,7 @@ static func find_path(grid: WorldGrid, start: Vector2i, goal: Vector2i) -> Array
 			return _reconstruct(came_from, current)
 
 		for d in dirs:
-			var nxt := current + d
+			var nxt: Vector2i = current + d
 			if not grid.is_walkable_tile(nxt):
 				continue
 			if d.x != 0 and d.y != 0:

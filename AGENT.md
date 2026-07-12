@@ -1,172 +1,102 @@
-Mission
+# Project Rules
 
-You are a senior gameplay engineer, game architect and technical designer.
+This is a Godot 4.4 project.
 
-Your objective is to build a production-quality indie horror game.
+The highest priority is keeping the project buildable at every step.
 
-Code quality is always more important than speed.
+## Workflow
 
-Never guess.
+NEVER perform large refactors.
 
-Always verify.
+Fix ONE category of errors at a time.
 
-------------------------------------------------
+After every small change:
 
-Context Loading
+1. Save files.
+2. Run Godot.
+3. Verify parse errors decreased.
+4. Continue only if project still opens.
 
-Before doing anything:
+If parse errors increase:
+STOP.
+Explain why.
+Do not continue.
 
-Read README.md.
+---
 
-Read PROJECT.md.
+## Forbidden
 
-Read architecture.md.
+Do NOT rewrite systems.
 
-Read the documentation required for the current task.
+Do NOT regenerate sprites.
 
-Never load unnecessary documentation.
+Do NOT regenerate audio.
 
-Only load files relevant to the current feature.
+Do NOT redesign gameplay.
 
-------------------------------------------------
+Do NOT rename files unless absolutely necessary.
 
-Workflow
+Do NOT change APIs unless required.
 
-Always execute tasks in this order.
+---
 
-1.
-Understand.
+## Required
 
-2.
-Explain your understanding.
+Always prefer minimal edits.
 
-3.
-Find affected systems.
+Preserve scene hierarchy.
 
-4.
-Create implementation plan.
+Preserve filenames.
 
-5.
-Wait for approval if architecture changes.
+Preserve exported variables.
 
-6.
-Implement.
+Preserve resource paths.
 
-7.
-Self review.
+---
 
-8.
-Run validation.
+## Error priority
 
-------------------------------------------------
+1. Parse errors
+2. Resource loading
+3. Scene loading
+4. Runtime crashes
+5. Gameplay bugs
+6. Optimization
+7. Polish
 
-Coding Principles
+Never skip priorities.
 
-Prefer existing architecture.
+---
 
-Never duplicate code.
+## Validation
 
-Never introduce unnecessary abstractions.
+After each batch:
 
-Never overengineer.
+- launch Godot
+- ensure parse error count decreased
+- ensure no new parse errors
+- commit progress
 
-Keep systems modular.
+Never continue blindly.
 
-Keep gameplay deterministic.
+---
 
-Keep rendering separated from gameplay.
+## Git
 
-Keep UI separated from logic.
+Before risky edits create a commit.
 
-------------------------------------------------
+Never modify more than 5 files in one batch.
 
-Safety
+---
 
-Never rewrite working systems.
+## Reporting
 
-Never rename files without reason.
+After every batch output:
 
-Never delete systems unless instructed.
+Files changed
 
-Never change save compatibility.
+Errors fixed
 
-------------------------------------------------
+Remaining errors
 
-Implementation
-
-Always modify the minimum amount of code.
-
-Always preserve project style.
-
-Always follow coding-style.md.
-
-Always follow architecture.md.
-
-------------------------------------------------
-
-Game Design
-
-Gameplay decisions are described inside docs/.
-
-Never invent mechanics.
-
-If documentation conflicts:
-
-Ask.
-
-Never assume.
-
-------------------------------------------------
-
-Assets
-
-Never invent missing assets.
-
-Create placeholders.
-
-Mark TODO.
-
-------------------------------------------------
-
-Review
-
-After every implementation check:
-
-Compilation
-
-Lint
-
-Unused imports
-
-Unused code
-
-Performance issues
-
-Possible bugs
-
-Architecture violations
-
-------------------------------------------------
-
-Output
-
-Always explain:
-
-What changed
-
-Why
-
-Possible risks
-
-Future improvements
-
-
-----------------
-When querying Godot engine features or project architecture, use `godot-architecture` and `gdscript-style`.
-If dealing with code examples or library usage, use `context7` for docs and `gh_grep` for sample code.
-When designing visuals or pixel assets, load `pixel-art` (and `lighting-effects` if about lights).
-For audio/SFX, use `audio-design`; for background tracks, `music-direction`.
-Gameplay tasks: if monsters or AI, use `monster-ai`; if map layout or rooms, use `dungeon-generation`.
-On questions of UI, use `ui-design`; for game balancing, use `game-balancing`.
-Always run `testing-quality` rules before finalizing features.
-    
+Next batch

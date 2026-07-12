@@ -285,7 +285,7 @@ func _test_loot() -> void:
 	# At least one chest sits inside a bedroom room (pixel-space check).
 	var bedroom_chest := false
 	for c in chests:
-		var pos := c.global_position
+		var pos: Vector2 = c.global_position
 		for rd in layout.rooms:
 			if rd.type != FloorLayout.TYPE_BEDROOM:
 				continue

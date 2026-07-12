@@ -10,7 +10,7 @@ const ROOM_SCENE := preload("res://scenes/Room.tscn")
 ## Build rooms + corridors + walls from `layout` into `container`. Returns a dict with keys:
 ## "rooms": Array[Room], "corridors": Array[TileMapLayer], "bounds_px": Rect2,
 ## "entrance_px": Vector2, "world_grid": WorldGrid.
-func build(layout: FloorLayout, container: Node) -> Dictionary:
+static func build(layout: FloorLayout, container: Node) -> Dictionary:
 	for child in container.get_children():
 		child.queue_free()
 
@@ -66,7 +66,7 @@ func build(layout: FloorLayout, container: Node) -> Dictionary:
 
 
 ## Build a single static collision body from horizontally-merged wall-shell rectangles.
-func _add_wall_collision(grid: WorldGrid, body: StaticBody2D) -> void:
+static func _add_wall_collision(grid: WorldGrid, body: StaticBody2D) -> void:
 	var TILE := Config.TILE_SIZE
 	var by_row: Dictionary = {}
 	for y in grid.rows:
@@ -81,8 +81,8 @@ func _add_wall_collision(grid: WorldGrid, body: StaticBody2D) -> void:
 		var xs: Array = by_row[y]
 		xs.sort()
 		xs.append(0x7FFFFFFF)  # sentinel to flush the final run
-		var run_start := xs[0]
-		var prev := xs[0]
+		var run_start: int = xs[0]
+		var prev: int = xs[0]
 		for i in range(1, xs.size()):
 			if xs[i] == prev + 1:
 				prev = xs[i]
@@ -92,7 +92,7 @@ func _add_wall_collision(grid: WorldGrid, body: StaticBody2D) -> void:
 				prev = xs[i]
 
 
-func _add_wall_rect(body: StaticBody2D, tile_x: int, tile_y: int, tile_w: int, TILE: int) -> void:
+static func _add_wall_rect(body: StaticBody2D, tile_x: int, tile_y: int, tile_w: int, TILE: int) -> void:
 	var shape := RectangleShape2D.new()
 	shape.size = Vector2(tile_w * TILE, TILE)
 	var cs := CollisionShape2D.new()

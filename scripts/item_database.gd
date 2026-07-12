@@ -12,7 +12,7 @@ func load_from(path: String) -> void:
 	if text.is_empty():
 		push_error("ItemDatabase: failed to read %s" % path)
 		return
-	var parsed := JSON.parse_string(text)
+	var parsed: Variant = JSON.parse_string(text)
 	if typeof(parsed) != TYPE_DICTIONARY or not parsed.has("items"):
 		push_error("ItemDatabase: bad schema in %s" % path)
 		return
