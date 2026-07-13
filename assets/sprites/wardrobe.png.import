@@ -1,14 +1,13 @@
 [remap]
 
 importer="texture"
-type="Texture2D"
-valid=true
-path="res://generated/textures/wardrobe.tex.tres"
+type="CompressedTexture2D"
+uid="uid://b6l70n647ec0w"
+valid=false
 
 [deps]
 
 source_file="res://assets/sprites/wardrobe.png"
-dest_files=["res://generated/textures/wardrobe.tex.tres"]
 
 [params]
 

@@ -16,12 +16,12 @@ static func build() -> TileSet:
 	var ts := TileSet.new()
 	ts.tile_size = Vector2i(32, 32)
 
-	_add_source(ts, load("res://assets/tilesets/floor_wood.png"))
-	_add_source(ts, load("res://assets/tilesets/floor_stone.png"))
-	_add_source(ts, load("res://assets/tilesets/floor_corridor.png"))
-	_add_source(ts, load("res://assets/tilesets/balcony_floor.png"))
-	_add_source(ts, load("res://assets/tilesets/wall_stone.png"))
-	_add_source(ts, load("res://assets/tilesets/wall_stone_dark.png"))
+	_add_source(ts, load("res://generated/textures/floor_wood.tex.tres"))
+	_add_source(ts, load("res://generated/textures/floor_stone.tex.tres"))
+	_add_source(ts, load("res://generated/textures/floor_corridor.tex.tres"))
+	_add_source(ts, load("res://generated/textures/balcony_floor.tex.tres"))
+	_add_source(ts, load("res://generated/textures/wall_stone.tex.tres"))
+	_add_source(ts, load("res://generated/textures/wall_stone_dark.tex.tres"))
 
 	return ts
 

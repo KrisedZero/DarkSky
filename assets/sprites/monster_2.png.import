@@ -1,14 +1,13 @@
 [remap]
 
 importer="texture"
-type="Texture2D"
-valid=true
-path="res://generated/textures/monster_2.tex.tres"
+type="CompressedTexture2D"
+uid="uid://bmbmubo3r51vu"
+valid=false
 
 [deps]
 
 source_file="res://assets/sprites/monster_2.png"
-dest_files=["res://generated/textures/monster_2.tex.tres"]
 
 [params]
 

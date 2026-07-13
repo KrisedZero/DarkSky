@@ -37,15 +37,16 @@ func _build_floor() -> void:
 
 func _process(_delta: float) -> void:
 	_refresh()
+	var tile := Vector2i.ZERO
 	if _player != null and is_instance_valid(_player) and _layout != null:
-		var tile := (_player.global_position / Config.TILE_SIZE).floor()
+		tile = (_player.global_position / Config.TILE_SIZE).floor()
 		_player.on_balcony = _layout.is_balcony_at(tile)
 	if InputReader.just_paused() and not GameManager._settings_open:
 		GameManager.pause()
 		return
 	_cull_rooms()
 	# ADR-015: only the stairs room ends the floor (a bare confirm anywhere is not enough).
-	if InputReader.ui_confirmed() and _layout.is_stairs_at(tile):
+	if InputReader.ui_confirmed() and _layout != null and _layout.is_stairs_at(tile):
 		GameManager.advance_floor()
 	elif InputReader.ui_cancelled():
 		GameManager.return_to_menu()
@@ -59,8 +60,33 @@ func _cull_rooms() -> void:
 		return
 	var cam_rect := cam.get_viewport_rect()
 	for child in _rooms.get_children():
-		var r := child.get_global_rect()
+		var r := _child_global_rect(child)
 		child.visible = Optimizer.rect_visible(r, cam_rect)
+
+
+## M26 (Godot 4): CanvasItem/Node2D has no get_rect()/get_global_rect() (those are Control-only),
+## so derive each child's world bounding rect from the used rects of its TileMapLayer content.
+func _child_global_rect(child: CanvasItem) -> Rect2:
+	var result := Rect2()
+	var first := true
+	for tm: CanvasItem in child.get_children():
+		if tm is TileMapLayer:
+			var ur: Rect2i = tm.get_used_rect()
+			var local := Rect2(
+				ur.position.x * Config.TILE_SIZE,
+				ur.position.y * Config.TILE_SIZE,
+				ur.size.x * Config.TILE_SIZE,
+				ur.size.y * Config.TILE_SIZE
+			)
+			var world := tm.get_global_transform() * local
+			if first:
+				result = world
+				first = false
+			else:
+				result = result.merge(world)
+	if first:
+		result = Rect2(child.get_global_transform().origin, Vector2.ZERO)
+	return result
 
 
 func _on_floor_changed(_index: int) -> void:

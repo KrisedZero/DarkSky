@@ -1,14 +1,13 @@
 [remap]
 
 importer="texture"
-type="Texture2D"
-valid=true
-path="res://generated/textures/door_open.tex.tres"
+type="CompressedTexture2D"
+uid="uid://c126ufqhb225f"
+valid=false
 
 [deps]
 
 source_file="res://assets/sprites/door_open.png"
-dest_files=["res://generated/textures/door_open.tex.tres"]
 
 [params]
 

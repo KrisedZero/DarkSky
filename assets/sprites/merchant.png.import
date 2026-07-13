@@ -1,14 +1,13 @@
 [remap]
 
 importer="texture"
-type="Texture2D"
-valid=true
-path="res://generated/textures/merchant.tex.tres"
+type="CompressedTexture2D"
+uid="uid://f7ka2fhshfhq"
+valid=false
 
 [deps]
 
 source_file="res://assets/sprites/merchant.png"
-dest_files=["res://generated/textures/merchant.tex.tres"]
 
 [params]
 

@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://dr0ocyg01c40s"]
 
 [ext_resource type="Script" uid="uid://csq62qtevwx4h" path="res://scripts/chest.gd" id="1_chest"]
-[ext_resource type="Texture2D" path="res://assets/sprites/chest.png" id="tex1"]
+[ext_resource type="Texture2D" path="res://generated/textures/chest.tex.tres" id="tex1"]
 
 
 [sub_resource type="RectangleShape2D" id="Rect_chest"]

@@ -4,7 +4,7 @@ extends RefCounted
 ## separately by FloorBuilder via a static collision body, so this TileSet carries no physics.
 ## See docs/roadmap.md M30.
 
-static var WALL_TEX: Texture2D = load("res://assets/tilesets/wall_stone.png")
+static var WALL_TEX: Texture2D = load("res://generated/textures/wall_stone.tex.tres")
 
 
 static func build() -> TileSet:

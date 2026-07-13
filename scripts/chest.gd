@@ -8,7 +8,7 @@ var chest_id: int = 0
 var loot: Dictionary = {}  # StringName -> int (COIN handled specially)
 var is_opened: bool = false
 
-var _open_tex: Texture2D = load("res://assets/sprites/chest_open.png")
+var _open_tex: Texture2D = load("res://generated/textures/chest_open.tex.tres")
 
 @onready var _sprite: Sprite2D = $Sprite
 

@@ -1,0 +1,466 @@
+ERROR: Failed loading resource: res://assets/sprites/player_idle.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: res://scenes/Player.tscn:23 - Parse Error: [ext_resource] referenced non-existent resource at: res://assets/sprites/player_idle.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:39)
+ERROR: Failed loading resource: res://assets/sprites/monster_1.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: res://scenes/Monster.tscn:18 - Parse Error: [ext_resource] referenced non-existent resource at: res://assets/sprites/monster_1.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:39)
+ERROR: Failed loading resource: res://assets/sprites/chest.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: res://scenes/Chest.tscn:15 - Parse Error: [ext_resource] referenced non-existent resource at: res://assets/sprites/chest.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:39)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: res://scenes/Door.tscn:18 - Parse Error: [ext_resource] referenced non-existent resource at: res://assets/sprites/door_closed.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:39)
+ERROR: Failed loading resource: res://assets/sprites/key.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: res://scenes/KeyItem.tscn:15 - Parse Error: [ext_resource] referenced non-existent resource at: res://assets/sprites/key.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:39)
+ERROR: Failed loading resource: res://assets/sprites/merchant.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: res://scenes/Merchant.tscn:16 - Parse Error: [ext_resource] referenced non-existent resource at: res://assets/sprites/merchant.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:39)
+ERROR: Failed loading resource: res://assets/sprites/bed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: res://scenes/Furniture.tscn:17 - Parse Error: [ext_resource] referenced non-existent resource at: res://assets/sprites/bed.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:39)
+ERROR: Failed loading resource: res://assets/tilesets/wall_stone.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/bed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: res://scenes/Bed.tscn:16 - Parse Error: [ext_resource] referenced non-existent resource at: res://assets/sprites/bed.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:39)
+ERROR: Failed loading resource: res://assets/sprites/wardrobe.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: res://scenes/Wardrobe.tscn:16 - Parse Error: [ext_resource] referenced non-existent resource at: res://assets/sprites/wardrobe.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:39)
+ERROR: Failed loading resource: res://assets/tilesets/floor_wood.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/floor_stone.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/floor_corridor.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/balcony_floor.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/wall_stone.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/wall_stone_dark.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/tilesets/floor_wood.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/floor_stone.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/floor_corridor.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/balcony_floor.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/wall_stone.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/wall_stone_dark.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/tilesets/floor_wood.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/floor_stone.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/floor_corridor.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/balcony_floor.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/wall_stone.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/wall_stone_dark.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/tilesets/floor_wood.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/floor_stone.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/floor_corridor.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/balcony_floor.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/wall_stone.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/wall_stone_dark.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/tilesets/floor_wood.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/floor_stone.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/floor_corridor.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/balcony_floor.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/wall_stone.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/wall_stone_dark.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/tilesets/floor_wood.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/floor_stone.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/floor_corridor.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/balcony_floor.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/wall_stone.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/wall_stone_dark.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/tilesets/floor_wood.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/floor_stone.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/floor_corridor.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/balcony_floor.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/wall_stone.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/wall_stone_dark.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/tilesets/floor_wood.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/floor_stone.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/floor_corridor.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/balcony_floor.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/wall_stone.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/tilesets/wall_stone_dark.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Cannot create tile. The tile is outside the texture or tiles are already present in the space the tile would cover.
+   at: create_tile (scene/resources/2d/tile_set.cpp:5004)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Parent node is busy setting up children, `add_child()` failed. Consider using `add_child.call_deferred(child)` instead.
+   at: add_child (scene/main/node.cpp:1657)
+ERROR: Condition "p_scene && p_scene->get_parent() != root" is true.
+   at: set_current_scene (scene/main/scene_tree.cpp:1502)

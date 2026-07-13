@@ -19,6 +19,16 @@ ERROR: Condition "!tasks.has(p_task)" is true. Returning: canceled
    at: task_step (editor/progress_dialog.cpp:217)
 ERROR: Condition "!tasks.has(p_task)" is true. Returning: canceled
    at: task_step (editor/progress_dialog.cpp:217)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "am" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://scripts/achievement_manager.gd:67)
+SCRIPT ERROR: Parse Error: Static function "remove()" not found in base "GDScriptNativeClass".
+   at: GDScript::reload (res://scripts/achievement_manager.gd:70)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+   at: GDScript::reload (res://scripts/game_manager.gd:0)
+ERROR: Failed to load script "res://scripts/game_manager.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:3022)
+ERROR: Failed to create an autoload, script 'res://scripts/achievement_manager.gd' is not compiling.
+   at: _create_autoload (editor/editor_autoload_settings.cpp:409)
 ERROR: Condition "!tasks.has(p_task)" is true. Returning: canceled
    at: task_step (editor/progress_dialog.cpp:217)
 ERROR: Condition "!tasks.has(p_task)" is true. Returning: canceled
@@ -27,76 +37,19 @@ ERROR: Condition "!tasks.has(p_task)" is true.
    at: end_task (editor/progress_dialog.cpp:240)
 ERROR: Couldn't find the given section "preset.0" and key "runnable", and no default was given.
    at: get_value (core/io/config_file.cpp:85)
-WARNING: Not enough image data
-   at: check_error (drivers/png/png_driver_common.cpp:56)
-ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
-   at: png_to_image (drivers/png/png_driver_common.cpp:119)
-ERROR: Error loading image: 'res://assets/sprites/door_open.png'.
-   at: load_image (core/io/image_loader.cpp:100)
-ERROR: Error importing 'res://assets/sprites/door_open.png'.
-   at: _reimport_file (editor/editor_file_system.cpp:2985)
-ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening 
-the project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
-WARNING: Not enough image data
-   at: check_error (drivers/png/png_driver_common.cpp:56)
-ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
-   at: png_to_image (drivers/png/png_driver_common.cpp:119)
-ERROR: Error loading image: 'res://assets/sprites/door_closed.png'.
-   at: load_image (core/io/image_loader.cpp:100)
-ERROR: Error importing 'res://assets/sprites/door_closed.png'.
-   at: _reimport_file (editor/editor_file_system.cpp:2985)
-ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by 
-opening the project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
-SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/sprites/door_open.png".
-   at: GDScript::reload (res://scripts/door.gd:27)
-SCRIPT ERROR: Parse Error: Cannot infer the type of "_open_tex" constant because the value doesn't have a set type.
-   at: GDScript::reload (res://scripts/door.gd:27)
-SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/sprites/door_closed.png".
-   at: GDScript::reload (res://scripts/door.gd:28)
-SCRIPT ERROR: Parse Error: Cannot infer the type of "_closed_tex" constant because the value doesn't have a set type.
-   at: GDScript::reload (res://scripts/door.gd:28)
-ERROR: Failed to load script "res://scripts/door.gd" with error "Parse error".
-   at: load (modules/gdscript/gdscript.cpp:3022)
-WARNING: Not enough image data
-   at: check_error (drivers/png/png_driver_common.cpp:56)
-ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
-   at: png_to_image (drivers/png/png_driver_common.cpp:119)
-ERROR: Error loading image: 'res://assets/sprites/door_closed.png'.
-   at: load_image (core/io/image_loader.cpp:100)
-ERROR: Error importing 'res://assets/sprites/door_closed.png'.
-   at: _reimport_file (editor/editor_file_system.cpp:2985)
-ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by 
-opening the project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
-WARNING: Not enough image data
-   at: check_error (drivers/png/png_driver_common.cpp:56)
-ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
-   at: png_to_image (drivers/png/png_driver_common.cpp:119)
-ERROR: Error loading image: 'res://assets/sprites/key.png'.
-   at: load_image (core/io/image_loader.cpp:100)
-ERROR: Error importing 'res://assets/sprites/key.png'.
-   at: _reimport_file (editor/editor_file_system.cpp:2985)
-ERROR: Failed loading resource: res://assets/sprites/key.png. Make sure resources have been imported by opening the 
-project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
 ERROR: Failed loading resource: res://assets/sprites/player_idle.png. Make sure resources have been imported by 
 opening the project in the editor at least once.
    at: _load (core/io/resource_loader.cpp:335)
 ERROR: Failed loading resource: res://assets/sprites/monster_1.png. Make sure resources have been imported by opening 
 the project in the editor at least once.
    at: _load (core/io/resource_loader.cpp:335)
-ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening 
-the project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
-SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/sprites/chest_open.png".
-   at: GDScript::reload (res://scripts/chest.gd:11)
-SCRIPT ERROR: Parse Error: Cannot infer the type of "_open_tex" constant because the value doesn't have a set type.
-   at: GDScript::reload (res://scripts/chest.gd:11)
-ERROR: Failed to load script "res://scripts/chest.gd" with error "Parse error".
-   at: load (modules/gdscript/gdscript.cpp:3022)
 ERROR: Failed loading resource: res://assets/sprites/chest.png. Make sure resources have been imported by opening the 
+project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by 
+opening the project in the editor at least once.
+   at: _load (core/io/resource_loader.cpp:335)
+ERROR: Failed loading resource: res://assets/sprites/key.png. Make sure resources have been imported by opening the 
 project in the editor at least once.
    at: _load (core/io/resource_loader.cpp:335)
 ERROR: Failed loading resource: res://assets/sprites/merchant.png. Make sure resources have been imported by opening 
@@ -105,136 +58,16 @@ the project in the editor at least once.
 ERROR: Failed loading resource: res://assets/sprites/bed.png. Make sure resources have been imported by opening the 
 project in the editor at least once.
    at: _load (core/io/resource_loader.cpp:335)
-ERROR: Failed loading resource: res://assets/tilesets/floor_wood.png. Make sure resources have been imported by 
-opening the project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
-ERROR: Failed loading resource: res://assets/tilesets/floor_stone.png. Make sure resources have been imported by 
-opening the project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
-ERROR: Failed loading resource: res://assets/tilesets/floor_corridor.png. Make sure resources have been imported by 
-opening the project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
-ERROR: Failed loading resource: res://assets/tilesets/balcony_floor.png. Make sure resources have been imported by 
-opening the project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
-ERROR: Failed loading resource: res://assets/tilesets/wall_stone.png. Make sure resources have been imported by 
-opening the project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
-ERROR: Failed loading resource: res://assets/tilesets/wall_stone_dark.png. Make sure resources have been imported by 
-opening the project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
-SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/tilesets/floor_wood.png".
-   at: GDScript::reload (res://scripts/floor_tileset.gd:19)
-SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/tilesets/floor_stone.png".
-   at: GDScript::reload (res://scripts/floor_tileset.gd:20)
-SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/tilesets/floor_corridor.png".
-   at: GDScript::reload (res://scripts/floor_tileset.gd:21)
-SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/tilesets/balcony_floor.png".
-   at: GDScript::reload (res://scripts/floor_tileset.gd:22)
-SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/tilesets/wall_stone.png".
-   at: GDScript::reload (res://scripts/floor_tileset.gd:23)
-SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/tilesets/wall_stone_dark.png".
-   at: GDScript::reload (res://scripts/floor_tileset.gd:24)
-SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
-   at: GDScript::reload (res://scripts/room.gd:0)
-ERROR: Failed to load script "res://scripts/room.gd" with error "Parse error".
-   at: load (modules/gdscript/gdscript.cpp:3022)
-ERROR: Failed loading resource: res://assets/tilesets/floor_wood.png. Make sure resources have been imported by 
-opening the project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
-ERROR: Failed loading resource: res://assets/tilesets/floor_stone.png. Make sure resources have been imported by 
-opening the project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
-ERROR: Failed loading resource: res://assets/tilesets/floor_corridor.png. Make sure resources have been imported by 
-opening the project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
-ERROR: Failed loading resource: res://assets/tilesets/balcony_floor.png. Make sure resources have been imported by 
-opening the project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
-ERROR: Failed loading resource: res://assets/tilesets/wall_stone.png. Make sure resources have been imported by 
-opening the project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
-ERROR: Failed loading resource: res://assets/tilesets/wall_stone_dark.png. Make sure resources have been imported by 
-opening the project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
-SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/tilesets/floor_wood.png".
-   at: GDScript::reload (res://scripts/floor_tileset.gd:19)
-SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/tilesets/floor_stone.png".
-   at: GDScript::reload (res://scripts/floor_tileset.gd:20)
-SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/tilesets/floor_corridor.png".
-   at: GDScript::reload (res://scripts/floor_tileset.gd:21)
-SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/tilesets/balcony_floor.png".
-   at: GDScript::reload (res://scripts/floor_tileset.gd:22)
-SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/tilesets/wall_stone.png".
-   at: GDScript::reload (res://scripts/floor_tileset.gd:23)
-SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/tilesets/wall_stone_dark.png".
-   at: GDScript::reload (res://scripts/floor_tileset.gd:24)
-ERROR: Failed loading resource: res://assets/tilesets/wall_stone.png. Make sure resources have been imported by 
-opening the project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
-SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/tilesets/wall_stone.png".
-   at: GDScript::reload (res://scripts/wall_tileset.gd:7)
-SCRIPT ERROR: Parse Error: Cannot infer the type of "WALL_TEX" constant because the value doesn't have a set type.
-   at: GDScript::reload (res://scripts/wall_tileset.gd:7)
-SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
-   at: GDScript::reload (res://scripts/floor_builder.gd:0)
-ERROR: Failed loading resource: res://assets/tilesets/floor_wood.png. Make sure resources have been imported by 
-opening the project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
-ERROR: Failed loading resource: res://assets/tilesets/floor_stone.png. Make sure resources have been imported by 
-opening the project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
-ERROR: Failed loading resource: res://assets/tilesets/floor_corridor.png. Make sure resources have been imported by 
-opening the project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
-ERROR: Failed loading resource: res://assets/tilesets/balcony_floor.png. Make sure resources have been imported by 
-opening the project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
-ERROR: Failed loading resource: res://assets/tilesets/wall_stone.png. Make sure resources have been imported by 
-opening the project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
-ERROR: Failed loading resource: res://assets/tilesets/wall_stone_dark.png. Make sure resources have been imported by 
-opening the project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
-SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/tilesets/floor_wood.png".
-   at: GDScript::reload (res://scripts/floor_tileset.gd:19)
-SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/tilesets/floor_stone.png".
-   at: GDScript::reload (res://scripts/floor_tileset.gd:20)
-SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/tilesets/floor_corridor.png".
-   at: GDScript::reload (res://scripts/floor_tileset.gd:21)
-SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/tilesets/balcony_floor.png".
-   at: GDScript::reload (res://scripts/floor_tileset.gd:22)
-SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/tilesets/wall_stone.png".
-   at: GDScript::reload (res://scripts/floor_tileset.gd:23)
-SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/tilesets/wall_stone_dark.png".
-   at: GDScript::reload (res://scripts/floor_tileset.gd:24)
 ERROR: Failed loading resource: res://assets/sprites/bed.png. Make sure resources have been imported by opening the 
 project in the editor at least once.
    at: _load (core/io/resource_loader.cpp:335)
 ERROR: Failed loading resource: res://assets/sprites/wardrobe.png. Make sure resources have been imported by opening 
 the project in the editor at least once.
    at: _load (core/io/resource_loader.cpp:335)
-ERROR: Failed loading resource: res://assets/sprites/chest_open.png. Make sure resources have been imported by opening 
-the project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
-SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/sprites/chest_open.png".
-   at: GDScript::reload (res://scripts/chest.gd:11)
-SCRIPT ERROR: Parse Error: Cannot infer the type of "_open_tex" constant because the value doesn't have a set type.
-   at: GDScript::reload (res://scripts/chest.gd:11)
-ERROR: Failed loading resource: res://assets/sprites/door_open.png. Make sure resources have been imported by opening 
-the project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
-ERROR: Failed loading resource: res://assets/sprites/door_closed.png. Make sure resources have been imported by 
-opening the project in the editor at least once.
-   at: _load (core/io/resource_loader.cpp:335)
-SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/sprites/door_open.png".
-   at: GDScript::reload (res://scripts/door.gd:27)
-SCRIPT ERROR: Parse Error: Cannot infer the type of "_open_tex" constant because the value doesn't have a set type.
-   at: GDScript::reload (res://scripts/door.gd:27)
-SCRIPT ERROR: Parse Error: Could not preload resource file "res://assets/sprites/door_closed.png".
-   at: GDScript::reload (res://scripts/door.gd:28)
-SCRIPT ERROR: Parse Error: Cannot infer the type of "_closed_tex" constant because the value doesn't have a set type.
-   at: GDScript::reload (res://scripts/door.gd:28)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "am" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://scripts/achievement_manager.gd:67)
+SCRIPT ERROR: Parse Error: Static function "remove()" not found in base "GDScriptNativeClass".
+   at: GDScript::reload (res://scripts/achievement_manager.gd:70)
 SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
    at: GDScript::reload (res://scripts/main.gd:0)
 ERROR: Failed to load script "res://scripts/main.gd" with error "Parse error".

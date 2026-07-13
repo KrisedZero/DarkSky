@@ -1,0 +1,4 @@
+Godot Engine v4.4.stable.official.4c311cbee - https://godotengine.org
+
+Core self-test OK: Config + SignalBus + Input + Player + Camera + Lighting + Interaction + Inventory + Items + Generation + Rooms + Furniture + Loot + Doors + Save + Monsters + Merchant + Survival + Stealth + DangerSense + HUD + Menu + Pause/Settings + Difficulty + Optimization + Balancing + Polishing + WorldPhysics + Release
+M16 save round-trip verified (seed, floor, inventory, opened chest/door IDs, player stats)

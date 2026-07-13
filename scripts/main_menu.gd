@@ -4,11 +4,11 @@ extends Control
 ## Wires to GameManager.start_game / continue_game. See docs/roadmap.md M23, docs/ui.md.
 ## Real forest/rain art is deferred to M28; this is a functional placeholder.
 
-@onready var _title: Label = $VBox/Title
-@onready var _play: Button = $VBox/PlayButton
-@onready var _continue: Button = $VBox/ContinueButton
-@onready var _settings: Button = $VBox/SettingsButton
-@onready var _exit: Button = $VBox/ExitButton
+@onready var _title: Label = $Center/VBox/Title
+@onready var _play: Button = $Center/VBox/PlayButton
+@onready var _continue: Button = $Center/VBox/ContinueButton
+@onready var _settings: Button = $Center/VBox/SettingsButton
+@onready var _exit: Button = $Center/VBox/ExitButton
 
 
 func _ready() -> void:

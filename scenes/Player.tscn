@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://ce37ys5t5xfa2" path="res://scripts/player_controller.gd" id="1_player"]
 [ext_resource type="Script" uid="uid://bjlam6oiasuob" path="res://scripts/lantern_light.gd" id="2_lantern"]
-[ext_resource type="Texture2D" path="res://assets/sprites/player_idle.png" id="tex1"]
+[ext_resource type="Texture2D" path="res://generated/textures/player_idle.tex.tres" id="tex1"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_player"]
 radius = 12.0
@@ -21,6 +21,7 @@ shape = SubResource("CircleShape2D_player")
 
 [node name="Sprite" type="Sprite2D" parent="."]
 texture = ExtResource("tex1")
+flip_v = true
 
 [node name="InteractionArea" type="Area2D" parent="."]
 

@@ -10,7 +10,7 @@ var _monster_spotted: bool = false
 
 func _ready() -> void:
 	_run_self_test()
-	SceneLoader.change_scene(Config.SCENE_MAIN_MENU)
+	SceneLoader.change_scene.call_deferred(Config.SCENE_MAIN_MENU)
 
 
 ## Lightweight boot-time validation of the autoloads (no test framework yet).

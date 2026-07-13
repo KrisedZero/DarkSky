@@ -24,8 +24,8 @@ var is_open: bool:
 	get:
 		return _is_open
 
-var _open_tex: Texture2D = load("res://assets/sprites/door_open.png")
-var _closed_tex: Texture2D = load("res://assets/sprites/door_closed.png")
+var _open_tex: Texture2D = load("res://generated/textures/door_open.tex.tres")
+var _closed_tex: Texture2D = load("res://generated/textures/door_closed.tex.tres")
 
 @onready var _sprite: Sprite2D = $Sprite
 @onready var _blocker: StaticBody2D = $Blocker

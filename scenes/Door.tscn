@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://xs3pu23s5aa"]
 
 [ext_resource type="Script" uid="uid://bv6u2vfspyk64" path="res://scripts/door.gd" id="1_door"]
-[ext_resource type="Texture2D" path="res://assets/sprites/door_closed.png" id="tex1"]
+[ext_resource type="Texture2D" path="res://generated/textures/door_closed.tex.tres" id="tex1"]
 
 
 [sub_resource type="RectangleShape2D" id="Rect_interact"]

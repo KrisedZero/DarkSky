@@ -1,14 +1,13 @@
 [remap]
 
 importer="texture"
-type="Texture2D"
-valid=true
-path="res://generated/textures/wall_stone.tex.tres"
+type="CompressedTexture2D"
+uid="uid://b2vp7gjd2oogw"
+valid=false
 
 [deps]
 
 source_file="res://assets/tilesets/wall_stone.png"
-dest_files=["res://generated/textures/wall_stone.tex.tres"]
 
 [params]
 
